@@ -1,0 +1,28 @@
+#blogtitle {
+    font-size: 6rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
+
+body
+{
+    background-image: url(bg.jpg);
+    backdrop-filter: blur(10px);
+    color: dark;
+    font-family: 'Ubuntu', sans-serif;
+
+.img-fluid {
+    border-radius: 20px;
+}
+
+.text-description {
+    color: dark;
+}
+
